@@ -23,7 +23,7 @@ Copyright (c) 2014 Yoshifumi Kawai https://github.com/neuecc/UniRx/blob/master/L
 --- | --- | ---
 滿足條件式才通過 | Where | 在別的語言中稱作filter
 去除已重複的東西|	Distinct |
-只有在數值變化的才通過 |	DistinctUntilChanged	
+只有在數值變化的時候才通過 |	DistinctUntilChanged	
 在指定的時間內只有最後一個訊息會通過 (OnNext)  | Throttle*/ThrtottleFrame*	
 在指定的時間內只有最初的訊息會通過 (OnNext) | ThrottleFirst*/ThrottleFirstFrame*	
 只讓Stream當中的第一個到達的OnNext通過 |	First/FirstOrDefault	
