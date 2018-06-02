@@ -35,5 +35,5 @@ OnNext兩個以上被通過時，則出現錯誤 |	Single/SingleOrDefault
 指定的數量完成以前都跳過 |	Skip	
 指定的條件成立後通過 |	SkipWhile	
 指定的Stream的OnNext通過之前都不通過 |	SkipUntil	
-型が一致するもののみ通したい(型変換も同時にしたい) 型別一致才通過 |	OfType<T>	
+型別一致才通過 |	OfType<T>	
 OnError 或者 OnCompleted 被呼叫時通過 |	IgnoreElements
